@@ -1,7 +1,7 @@
 //DataList.js
 
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function DataList({ data, onUpdate, onDelete }) {
   const navigate = useNavigate(); // navigate 초기화
